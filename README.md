@@ -112,7 +112,18 @@ Microsoft Software & Systems Academy – Cloud Application Development Cohort
 
 ---
 
-## 📦 [# Load libraries
+## 📦 [Full Code](#full-code)
+
+Paste this in a new file `app.R` in your RStudio project:
+
+> ⚙️ The full code is already prepared above in your previous message. Due to GitHub formatting limits, **I recommend you copy and paste your existing fully working code block at the bottom of the README file in its own section** as:
+
+```markdown
+---
+
+## 📦 Full Code
+
+<# Load libraries
 required_packages <- c("shiny", "shinydashboard", "shinydashboardPlus", "shinyjs", "plotly", "DT", "shinyWidgets", "shinyFeedback")
 for (pkg in required_packages) {
   if (!requireNamespace(pkg, quietly = TRUE)) {
@@ -644,19 +655,9 @@ server <- function(input, output, session) {
 }
 
 # Run the app
-shinyApp(ui, server)](#full-code)
-
-Paste this in a new file `app.R` in your RStudio project:
-
-> ⚙️ The full code is already prepared above in your previous message. Due to GitHub formatting limits, **I recommend you copy and paste your existing fully working code block at the bottom of the README file in its own section** as:
-
-```markdown
----
-
-## 📦 Full Code
-
-<copy full app.R code here between fenced code blocks>
+shinyApp(ui, server)>
 
 ```
 
 Let me know and I can generate the Markdown-formatted copy of the code block to paste in directly — or I can help you build a GitHub repo banner as well!
+
